@@ -1,0 +1,332 @@
+/*
+====================================================================================================
+! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css 
+====================================================================================================
+*/
+
+html {
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	line-height:1.15;
+}
+
+body{
+	margin:0;
+}
+
+nav,
+main,
+menu,
+aside,
+figure,
+footer,
+header,
+section,
+details,
+article,
+figcaption {
+	display:block;
+}
+
+hr,
+input,
+button {
+	overflow:visible;
+}
+
+video,
+audio,
+canvas,
+progress {
+	display:inline-block;
+}
+
+sub,
+sup,
+progress {
+	vertical-align:baseline;
+}
+
+pre,
+kbd,
+code,
+samp {
+	font-family:monospace,monospace;
+	font-size:1em;
+}
+
+legend,
+[type=radio],
+[type=checkbox] {
+	box-sizing:border-box;
+	padding:0
+}
+
+h1 {
+	margin:.67em 0;
+	font-size: 1.8rem;
+}
+
+figure {
+	margin:1em 40px;
+}
+
+hr {
+	box-sizing:content-box;
+	height:0;
+}
+
+a {
+	-webkit-text-decoration-skip:objects;
+	background-color:transparent;
+}
+
+abbr[title] {
+	text-decoration:underline;
+	text-decoration:underline dotted;
+	border-bottom:none;
+}
+
+b,
+strong{
+	font-weight:bolder;
+}
+
+dfn{
+	font-style:italic;
+}
+
+mark{
+	background-color:#ff0;
+	color:#000;
+}
+
+small{
+	font-size:80%;
+}
+
+sub,
+sup {
+	position:relative;
+	font-size:75%;
+	line-height:0;
+}
+
+sub {
+	bottom:-.25em;
+}
+
+sup {
+	top:-.5em;
+}
+
+audio:not([controls]) {
+	display:none;
+	height:0;
+}
+
+img {
+	border-style:none;
+}
+
+svg:not(:root){
+	overflow:hidden;
+}
+
+input,
+select,
+button,
+optgroup,
+textarea {
+	font-family:sans-serif;
+	line-height:1.15;
+	font-size:100%;
+	margin:0;
+}
+
+button,
+select {
+	text-transform:none;
+}
+
+button,
+[type=reset],
+[type=submit],
+html [type=button]{
+	-webkit-appearance:button;
+}
+
+button::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+	border-style:none;
+	padding:0;
+}
+
+button:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=submit]:-moz-focusring {
+	outline:ButtonText dotted 1px;
+}
+
+fieldset {
+	padding:.35em .75em .625em;
+}
+
+legend {
+	white-space:normal;
+	max-width:100%;
+	color:inherit;
+	display:table;
+}
+
+textarea {
+	overflow:auto;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+	height:auto;
+}
+
+[type=search]{
+	-webkit-appearance:textfield;
+	outline-offset:-2px;
+}
+
+[type=search]::-webkit-search-decoration,
+[type=search]::-webkit-search-cancel-button {
+	-webkit-appearance:none;
+}
+
+::-webkit-file-upload-button {
+	-webkit-appearance:button;
+	font:inherit;
+}
+
+summary {
+	display:list-item;
+}
+
+[hidden],
+template {
+	display:none;
+}
+
+/*
+====================================================================================================
+Begin main css
+====================================================================================================
+*/
+
+/**************************************************
+	Global 
+**************************************************/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	font-family:"Helvetica Nue", Helvetica, Arial, sans-serif;
+	font-size:16px;
+}
+
+.dm-container {
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width:1170px;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover,
+a:focus {
+	text-decoration:underline;
+}
+
+/**************************************************
+	Nav
+**************************************************/
+
+nav.dm-nav {
+	background-color: rgba(95, 130, 95, 1);
+	color:#FFFFFF;
+}
+
+.dm-nav-section {
+	
+}
+
+.dm-nav-left {
+	float:left;
+}
+
+.dm-nav-right {
+	float:right;
+}
+
+.dm-nav-brand-text {
+	padding: 8px 0;
+	margin:0;
+}
+
+.dm-nav-list {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+
+.dm-nav-list-item {
+	position:relative;
+	float:left;
+} 
+
+.dm-nav-list-link {
+	text-transform:uppercase;
+	display:inline-block;
+	padding:15px 10px;
+	font-weight:300;
+	color:#FFFFFF;
+}
+
+.dm-nav-list-link:hover {
+	background-color: rgba(255, 255, 255, .2);
+	text-decoration:none;
+}
+
+/**************************************************
+	Nav
+**************************************************/
+
+.dm-main {
+	margin-top:20px;
+}
+
+/**************************************************
+	Utility classes
+**************************************************/
+
+.clearfix:after,
+.dm-container:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+
+
+
+
+
+

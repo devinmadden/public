@@ -1,0 +1,15 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "Public Profile",
+  "main": "init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Devin Madden",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "normalize.css": "^7.0.0"
+  }
+}
